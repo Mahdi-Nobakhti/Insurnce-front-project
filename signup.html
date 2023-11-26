@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Sign up</title>
+<!--import css files-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/sign-in-style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+    <link rel="stylesheet" href="asset/vendor/bootstrap.min.css">
+<!------------->
+</head>
+<body>
+<!-- header -->
+<section class="header">
+        <img class="banner-pic img-fluid" src="asset/img/banner.png">
+        <div class="offcanvas offcanvas-top" id="demo">
+            <div class="offcanvas-header">
+              <div class="nav-logo">
+                <a href="#"><img src="asset/img/logo.png" alt=""></a>
+            </div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body d-flex ">
+                <ul class="navbar-nav ">
+                    
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <br>
+                    <li><a href="" class="nav-link">Service</a></li>
+                    <br>
+                    <li><a href="" class="nav-link">Insurance Services</a></li>
+                    <!-- <li><a href="#" class="signin-button nav-link">Sign In</a></li> -->
+                </ul>
+            </div>
+        </div>
+        <header>
+            <nav class="">
+                <div class="nav-logo">
+                    <a href="#"><img src="asset/img/logo.png" alt=""></a>
+                </div>
+                <ul class="navbar-nav navbar-navi">
+                    <li><a href="index.html" class="nav-link text-light">Home</a></li>
+                    <li><a href="" class="nav-link text-light">Service</a></li>
+                    <li><a href="" class="nav-link text-light">Insurance Services</a></li>
+                    <!-- <li><a href="#" class="signin-button nav-link">Sign In</a></li> -->
+                </ul>
+                <button class="toggler navbar-toggler navbar bg-success " type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                   <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </header>
+        <div class="sign-in d-flex flex-column ">
+            <h1>Sign Up</h1> 
+                <div class="si-form rounded-3">
+                    <form method="">
+                        <div class="form-floating">
+                            <input type="text" class="form-control border border-warning border-3"  placeholder="" name="username">
+                            <label for="username">Username</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" class="form-control border border-warning border-3"  placeholder="" name="Email">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control border border-warning border-3"  placeholder="" name="password">
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="form-floating">
+                            <button type="submit" class="si-submit">Create Account</button>
+                        </div>
+                    </form>
+                    <h2 class="text-light">•</h2>
+                </div>          
+                <a class="nav-link signup-link rounded-3" href="signin.html">Sign In</a>
+            </div>
+        </section>
+<!-- js -->
+    <script src="asset/vendor/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+@media only screen and (max-width: 1762px) {
+    .star-pic {left: 630px}
+    .tip {left: 530px}
+    .experienced-agents {width: 88%}
+    .oc-content {margin-top: 150px}
+    .footer-container {padding-top: 460px}
+    .footer-part1 {padding-right: 20px !important}
+    .footer {margin-top: -100px}
+}
+
+@media only screen and (max-width: 1500px) {
+    .star-pic {left: 430px}
+    .tip {left: 330px;top: 730px}
+    .red-earth {left: 350px;top :150px}
+    .lock-pic {top : 400px}
+    .banner-part1  {text-shadow: 2px 1px 9px black}
+    .watch-button {text-shadow: 3px 2px 13px black}
+    .card {width: 400px}
+    .card-body {padding: 20px !important;}
+    .card-body h1 {font-size: 30px}
+    .card-body p {font-size: 19px}
+    .two-women-pic *{width: 500px}
+    .oc-content {margin-top: 100px;}
+    .oc-item p {font-size: 18px;line-height: 40px;}
+}
+
+@media only screen and (max-width: 1300px) {
+    .experienced-agents {width: 97%}
+    .footer-container {padding-top: 380px}
+    .address {font-size: 14px !important}
+    .contact-us p {
+        font-size: 17px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .tip {left: 230px;top: 440px}
+    .red-earth {left: 250px;top :350px}
+    .three-cards {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .card {
+        width: 600px;
+        margin: 20px;
+    }
+    .card-body {padding: 50px !important;}
+    .card-body h1 {font-size: 50px}
+    .card-body p {font-size: 28px}
+    .title h1 {font-size: 41px;}
+    .title ,.title h1 div{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .policies{
+        margin-top: 100px;
+        width: 95%;
+    }
+    .experienced-agents {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .experienced-agents-info {
+        width: 70% !important;
+        text-align: center;
+    }
+    .two-women-pic *{border-radius: 50px}
+    .oc-item p {line-height: 24px;}
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .navbar-navi{display: none !important} 
+    .toggler {display: block !important}
+    .banner-part2{display :none}
+    .banner-pic {display: none}
+    .watch-button {text-shadow: 0px 0px}
+    .col-5 {
+        width: 80% !important;
+        margin-left: 0px;
+    }
+    .banner-container {
+        justify-content: center !important;
+    }
+    .banner-part1 h1{
+        width: auto;
+        text-shadow: 0px 0px  !important;
+    }
+    .banner-part1 p{
+        text-shadow: 0px 0px  !important;
+    }
+    .banner-part1 * {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    .header{
+        height: auto;
+    }
+    .footer-part1 {
+        width: 95% !important;
+        padding-right: 0 !important;
+    }
+    .contact-us *{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .oc-content {margin-top: 0}
+    .footer-part1 {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .sign-in {
+        margin: 0;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1036px) {
+    .footer {margin: 0}
+    .footer-container {padding: 50px}
+    .our-customers {margin-top: 40px}   
+    .our-customers img {display: none}
+    .oc-item p {font-size: 13px}
+    .our-customers {background-color: #F0FAF6}
+    .oc-down img{
+        display: block;
+        width: 430px;
+    }  
+}
+
+@media only screen and (max-width: 760px) {
+    .banner-part1 h1 {
+        font-size: xxx-large !important;
+    }
+    .banner-part1 p {
+        font-size: large !important;}
+    .banner-part1 {
+        width: 100% !important;
+    }
+    .getstarted-button , .watch-button{
+        width: auto;
+        font-size: 17px;
+        height: auto;
+        padding: 20px;
+    }
+    .cooperations img {
+        height: 50px;
+    }
+    .card {width: 500px}
+    .title h1 {font-size: 35px;}
+    .card-body {padding: 30px !important;}
+    .card-body h1 {font-size: 37px}
+    .card-body p {font-size: 19px}
+    .experienced-agents-info {width: 90% !important}
+    .free-consultation {
+        width: 350px;
+        padding: 10px;
+        margin-left: -12px;
+    }
+    .oc-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .oc-item {
+        max-width: 99%;
+        padding: 10px;
+    }
+    .oc-item p {font-size: 21px;}
+    .our-customers {margin-top: 0} 
+    .footer-part2 {
+        width: 98% !important;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .four-item {height: 420px}
+    .free-consultation {width: 300px}
+    .form-floating {
+        margin: 20px!important;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 562px) {
+    .cooperations img {height: 37px}
+    .nav {padding: 43px 35px}
+    .title h1 {font-size: 26px;}
+    .card {width: 400px}
+    .free-consultation {width: 230px;height: 280px;}
+    .free-consultation h2{font-size: 25px !important}
+    .four-item {height: 380px}
+}   
+

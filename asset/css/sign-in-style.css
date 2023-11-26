@@ -1,0 +1,63 @@
+
+.sign-in {
+    position: relative;
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 40%;
+    text-align: center;
+}
+
+.sign-in h1{
+    font-family: 'Playfair-Display';
+    font-weight: 700;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.si-submit {
+    transition: 0.4s;
+    background: #F7C85A;
+    border-radius: 6px;
+    font-size: 25px;
+    width: 100%;
+    height: 60px;
+    border: 0;
+}
+
+.si-submit:hover {
+    box-shadow: 1px 0 19px#fdd880;
+}
+
+.signup-link {
+    color: #F7C85A !important;
+    font-size: 20px !important;
+    transition: 0.5s !important;
+    width: 30%;
+    align-self: center !important;
+    border: 1px solid #F7C85A;
+    margin: 20px !important;
+}
+
+.signup-link:hover {
+    background-color: #F7C85A;
+    color: black !important;
+    box-shadow: 1px 0 19px#fdd880;
+}
+
+.forgot-link {
+    color: #ff2d2d !important;
+    margin: 23px;
+    font-size: 21px !important;
+    transition: 0.5s !important;
+    width: 40%;
+    align-self: center !important;
+    text-shadow: 0 0 10px black;
+}
+
+.forgot-link:hover {
+    background-color: #fd3131;
+    color: rgb(255, 215, 215) !important;
+    box-shadow: 1px 0 19px rgb(255, 113, 113);
+}
+
+
