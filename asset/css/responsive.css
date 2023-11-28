@@ -74,9 +74,13 @@
 @media only screen and (max-width: 1100px) {
     .navbar-navi{display: none !important} 
     .toggler {display: block !important}
+    .offcanvas-body {justify-content: center}
+    .navbar-nav {align-items: center}
     .banner-part2{display :none}
     .banner-pic {display: none}
     .watch-button {text-shadow: 0px 0px}
+    .navbar-nav li {padding: 0;color: #0D4A31;text-shadow: 1px 1px 2px #85ffce;}
+    /* .navbar-nav li a {border: 2px solid #176646} */
     .col-5 {
         width: 80% !important;
         margin-left: 0px;
@@ -196,3 +200,45 @@
     .four-item {height: 380px}
 }   
 
+@media only screen and (max-width: 480px) {
+    nav {padding: 38px 30px}
+    .nav-logo a img{width:150px !important}
+    .banner-part1 {margin-top: 20px !important;}
+    .banner-part1 h1 {font-size: xx-large !important}
+    .banner-part1 p {font-size: medium !important;}
+    .two-buttons {padding-top: 36px}
+    .getstarted-button, .watch-button {font-size: 14px;padding: 15px 16px}
+    .policies {margin-top: 50px}
+    .three-cards {margin-top: 20px}
+    .oc-title h1 {font-size: 34px;margin-top: 20px}
+    .textarea {height: 150px !important}
+    .cu-submit {font-size: 17px;height: 38px;}
+    .card {max-width: 95%}
+    .info {padding: 11px 6px}
+    .forgot-link {width: 70%;}
+    .signin-button {text-shadow: none}
+    .cu-title h1{font-size: 40px;}
+    .footer-container {padding: 10px}
+    .free-consultation {width: 230px;height: 280px; margin-left: -40px;max-width: 98%;}
+    .cu-form {margin-bottom: 50px}
+    .cooperations {
+        margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cooperations img{
+        height: 60px;
+        margin-top: 0;
+        padding: 0;
+    }
+    .title h1{
+        text-align: center;
+        line-height: 50px;
+    }
+    .oc-down img{
+        display: block;
+        width: 430px;
+        max-width: 100%;
+    }  
+}
