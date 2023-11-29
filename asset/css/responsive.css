@@ -80,7 +80,7 @@
     .banner-pic {display: none}
     .watch-button {text-shadow: 0px 0px}
     .navbar-nav li {padding: 0;color: #0D4A31;text-shadow: 1px 1px 2px #85ffce;}
-    /* .navbar-nav li a {border: 2px solid #176646} */
+    .signin-button {text-shadow: none}
     .col-5 {
         width: 80% !important;
         margin-left: 0px;
@@ -216,7 +216,6 @@
     .card {max-width: 95%}
     .info {padding: 11px 6px}
     .forgot-link {width: 70%;}
-    .signin-button {text-shadow: none}
     .cu-title h1{font-size: 40px;}
     .footer-container {padding: 10px}
     .free-consultation {width: 230px;height: 280px; margin-left: -40px;max-width: 98%;}
